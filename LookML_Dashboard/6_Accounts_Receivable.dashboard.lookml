@@ -102,9 +102,7 @@
     explore: data_intelligence_ar
     type: looker_pie
     fields: [data_intelligence_ar.Past_Due_Interval, data_intelligence_ar.OverDue_Amount]
-    filters:
-      data_intelligence_ar.Key_Date: 2022/03/31
-      data_intelligence_ar.Past_Due_Interval: "-Due after Key Date"
+
     sorts: [data_intelligence_ar.Past_Due_Interval desc]
     limit: 500
     dynamic_fields: [{category: measure, expression: '', label: Overdue Amount, value_format: '0.00,"K"',
