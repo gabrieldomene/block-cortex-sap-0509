@@ -687,7 +687,7 @@
       options: []
     model: cortex_sap_operational
     explore: data_intelligence_ar
-    listens_to_filters: [data_intelligence_ar.Company_Name]
+    listens_to_filters: []
     field: data_intelligence_ar.Company_Name
   - name: 'Sold to Party '
     title: 'Sold to Party '
