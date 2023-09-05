@@ -10,7 +10,7 @@
     explore: data_intelligence_ar
     type: looker_pie
     fields: [data_intelligence_ar.Company_Name, data_intelligence_ar.Sum_of_Receivables]
-    filters: {data_intelligence_ar.Company_Name}
+    filters: {}
     sorts: [data_intelligence_ar.Company_Name]
     limit: 500
     dynamic_fields: [{category: measure, expression: '', label: Total Receivable,
