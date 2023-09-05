@@ -10,9 +10,9 @@
     explore: data_intelligence_ar
     type: looker_pie
     fields: [data_intelligence_ar.Company_Name, data_intelligence_ar.Sum_of_Receivables]
-    filters: {}
+    filters: {data_intelligence_ar.Company_Name}
     sorts: [data_intelligence_ar.Company_Name]
-
+    limit: 500
     dynamic_fields: [{category: measure, expression: '', label: Total Receivable,
         value_format: '0.00,"K"', value_format_name: !!null '', based_on: data_intelligence_ar.Accounts_Receivable_Local_Currency,
         _kind_hint: measure, measure: total_receivable, type: sum, _type_hint: sum},
@@ -102,7 +102,9 @@
     explore: data_intelligence_ar
     type: looker_pie
     fields: [data_intelligence_ar.Past_Due_Interval, data_intelligence_ar.OverDue_Amount]
-
+    filters:
+      data_intelligence_ar.Key_Date: 2022/03/31
+      data_intelligence_ar.Past_Due_Interval: "-Due after Key Date"
     sorts: [data_intelligence_ar.Past_Due_Interval desc]
     limit: 500
     dynamic_fields: [{category: measure, expression: '', label: Overdue Amount, value_format: '0.00,"K"',
