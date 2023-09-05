@@ -87,10 +87,10 @@
     show_null_points: true
     interpolation: linear
     listen:
-      DSO Period: data_intelligence_ar.Day_Sales_Outstanding
+      'DSO Period': data_intelligence_ar.Day_Sales_Outstanding
       Currency: data_intelligence_ar.Currency_Required
       Company: data_intelligence_ar.Company_Name
-      Overdue Receivable Interval: data_intelligence_ar.Aging_Interval
+      'Overdue Receivable Interval': data_intelligence_ar.Aging_Interval
       'Sold to Party ': data_intelligence_ar.Sold_to_Party_Name
     row: 9
     col: 0
@@ -174,10 +174,10 @@
     show_null_points: true
     interpolation: linear
     listen:
-      DSO Period: data_intelligence_ar.Day_Sales_Outstanding
+      'DSO Period': data_intelligence_ar.Day_Sales_Outstanding
       Currency: data_intelligence_ar.Currency_Required
       Company: data_intelligence_ar.Company_Name
-      Overdue Receivable Interval: data_intelligence_ar.Aging_Interval
+      'Overdue Receivable Interval': data_intelligence_ar.Aging_Interval
       'Sold to Party ': data_intelligence_ar.Sold_to_Party_Name
     row: 9
     col: 12
@@ -234,10 +234,10 @@
     defaults_version: 1
     series_types: {}
     listen:
-      DSO Period: data_intelligence_ar.Day_Sales_Outstanding
+      'DSO Period': data_intelligence_ar.Day_Sales_Outstanding
       Currency: data_intelligence_ar.Currency_Required
       Company: data_intelligence_ar.Company_Name
-      Overdue Receivable Interval: data_intelligence_ar.Aging_Interval
+      'Overdue Receivable Interval': data_intelligence_ar.Aging_Interval
       'Sold to Party ': data_intelligence_ar.Sold_to_Party_Name
     row: 4
     col: 0
@@ -376,10 +376,10 @@
     show_silhouette: false
     totals_color: "#808080"
     listen:
-      DSO Period: data_intelligence_ar.Day_Sales_Outstanding
+      'DSO Period': data_intelligence_ar.Day_Sales_Outstanding
       Currency: data_intelligence_ar.Currency_Required
       Company: data_intelligence_ar.Company_Name
-      Overdue Receivable Interval: data_intelligence_ar.Aging_Interval
+      'Overdue Receivable Interval': data_intelligence_ar.Aging_Interval
       'Sold to Party ': data_intelligence_ar.Sold_to_Party_Name
     row: 19
     col: 0
@@ -409,10 +409,10 @@
     note_display: above
     note_text: Greater than 90 Days
     listen:
-      DSO Period: data_intelligence_ar.Day_Sales_Outstanding
+      'DSO Period': data_intelligence_ar.Day_Sales_Outstanding
       Currency: data_intelligence_ar.Currency_Required
       Company: data_intelligence_ar.Company_Name
-      Overdue Receivable Interval: data_intelligence_ar.Aging_Interval
+      'Overdue Receivable Interval': data_intelligence_ar.Aging_Interval
       'Sold to Party ': data_intelligence_ar.Sold_to_Party_Name
     row: 4
     col: 18
@@ -467,10 +467,10 @@
     defaults_version: 1
     series_types: {}
     listen:
-      DSO Period: data_intelligence_ar.Day_Sales_Outstanding
+      'DSO Period': data_intelligence_ar.Day_Sales_Outstanding
       Currency: data_intelligence_ar.Currency_Required
       Company: data_intelligence_ar.Company_Name
-      Overdue Receivable Interval: data_intelligence_ar.Aging_Interval
+      'Overdue Receivable Interval': data_intelligence_ar.Aging_Interval
       'Sold to Party ': data_intelligence_ar.Sold_to_Party_Name
     row: 4
     col: 12
@@ -665,10 +665,10 @@
     hidden_points_if_no: []
     series_labels: {}
     listen:
-      DSO Period: data_intelligence_ar.Day_Sales_Outstanding
+      'DSO Period': data_intelligence_ar.Day_Sales_Outstanding
       Currency: data_intelligence_ar.Currency_Required
       Company: data_intelligence_ar.Company_Name
-      Overdue Receivable Interval: data_intelligence_ar.Aging_Interval
+      'Overdue Receivable Interval': data_intelligence_ar.Aging_Interval
       'Sold to Party ': data_intelligence_ar.Sold_to_Party_Name
     row: 0
     col: 19
