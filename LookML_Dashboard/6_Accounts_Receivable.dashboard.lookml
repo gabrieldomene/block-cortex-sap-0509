@@ -12,7 +12,7 @@
     fields: [data_intelligence_ar.Company_Name, data_intelligence_ar.Sum_of_Receivables]
     filters: {}
     sorts: [data_intelligence_ar.Company_Name]
-    limit: 500
+
     dynamic_fields: [{category: measure, expression: '', label: Total Receivable,
         value_format: '0.00,"K"', value_format_name: !!null '', based_on: data_intelligence_ar.Accounts_Receivable_Local_Currency,
         _kind_hint: measure, measure: total_receivable, type: sum, _type_hint: sum},
